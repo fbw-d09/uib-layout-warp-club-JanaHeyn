@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+*
+{
+    font-family: 'Jura', sans-serif;
+    box-sizing: border-box;
+}
+
+.header
+{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(123, 123, 123, 0.90);
+}
+
+.navbar
+{
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.navbar-links li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+.navbar-rechts
+{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 700px;
+    margin-right: 20px;
+}
+
+/* Main Headline */
+.main-headline
+{
+    font-size: 90px;
+    text-align: center;
+    margin: 10px;
+    color: #F6231D;
+    position: absolute;
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    top: 150px;
+    left: 250px;
+    z-index: 1;
+}
+
+
+/* Split Section */
+.warp-club
+{
+    display: flex;
+}
+
+.column1
+{
+    width: 50%;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position: top left;
+    /* border: 5px solid green; */
+}
+
+.column2
+{
+    width: 50%;
+    height: 100vh;  
+    background-image: url(./assets/main.jpg);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid blue;  */
+} 
